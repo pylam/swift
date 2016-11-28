@@ -9,8 +9,11 @@
 // See http://swift.org/CONTRIBUTORS.txt for the list of Swift project authors
 //
 //===----------------------------------------------------------------------===//
-// RUN: %target-run-simple-swift
+// RUN: %target-build-swift -parse-stdlib -Xfrontend -disable-access-control %s -o %t/a.out
+// RUN: %target-run %t/a.out
 // REQUIRES: executable_test
+
+import Swift
 
 // UTF-8 format
 // ############
