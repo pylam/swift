@@ -3,31 +3,31 @@
     "https-clone-pattern": "https://github.com/%s.git",
     "repos" : {
         "llvm": {
-            "remote": { "id": "apple/swift-llvm" } },
+            "remote": { "id": "pylam/swift-llvm" } },
         "clang": {
-            "remote": { "id": "apple/swift-clang" } },
+            "remote": { "id": "pylam/swift-clang" } },
         "swift": {
-            "remote": { "id": "apple/swift" } },
+            "remote": { "id": "pylam/swift" } },
         "lldb": {
-            "remote": { "id": "apple/swift-lldb" } },
+            "remote": { "id": "pylam/swift-lldb" } },
         "cmark": {
-            "remote": { "id": "apple/swift-cmark" } },
+            "remote": { "id": "pylam/swift-cmark" } },
         "llbuild": {
-            "remote": { "id": "apple/swift-llbuild" } },
+            "remote": { "id": "pylam/swift-llbuild" } },
         "swiftpm": {
-            "remote": { "id": "apple/swift-package-manager" } },
+            "remote": { "id": "pylam/swift-package-manager" } },
         "compiler-rt": {
-            "remote": { "id": "apple/swift-compiler-rt" } },
+            "remote": { "id": "pylam/swift-compiler-rt" } },
         "swift-corelibs-xctest": {
-            "remote": { "id": "apple/swift-corelibs-xctest" } },
+            "remote": { "id": "pylam/swift-corelibs-xctest" } },
         "swift-corelibs-foundation": {
-            "remote": { "id": "apple/swift-corelibs-foundation" } },
+            "remote": { "id": "pylam/swift-corelibs-foundation" } },
         "swift-corelibs-libdispatch": {
-            "remote": { "id": "apple/swift-corelibs-libdispatch" } },
+            "remote": { "id": "pylam/swift-corelibs-libdispatch" } },
         "swift-integration-tests": {
-            "remote": { "id": "apple/swift-integration-tests" } },
+            "remote": { "id": "pylam/swift-integration-tests" } },
         "swift-xcode-playground-support": {
-            "remote": { "id": "apple/swift-xcode-playground-support" } }
+            "remote": { "id": "pylam/swift-xcode-playground-support" } }
     },
     "default-branch-scheme": "master",
     "branch-schemes": {
